@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% extends 'base.html'  %}  
+{% block head  %} 
+   <title>Rocket Science : Image Search Engine</title>
+{% endblock %}
+</head>
+<body>
+{% block body  %} 
+	<div style="text-align:center;">
+		<div style="background-image: url('https://images.creativemarket.com/0.1.0/ps/5516004/2000/2000/m1/fpnw/wm0/painted-ground-.jpg?1544153362&s=0f194db666e61a393ea1e0e7946ab568');
+					font-family: roboto;
+					padding-top: 140px;
+					padding-bottom: 200px;">
+			<h1 style="font-size: 70px;
+					color: navy;">Art-Mixer</h1>		
+            
+        <div class="compare" style="margin: 100px;">
+        	<p style="color: navy; font-size: 25px;">Upload Your Content and Style Images!</p>
+        	<form action = "/success" method = "POST" enctype="multipart/form-data">  
+        		<select class="form-control" name="degree"
+	        						 style = "margin-top: 20px;
+	        						 		  margin-bottom: 30px;
+	        						 		  width: 200px; 
+					  			   			  height: 35px;
+												   text-align-last: center;">
+												   
+					<option value="full" selected>--Choose Mixing Degree--</option>
+					<option value="full" selected>Full</option>
+				    <option value="half">Half</option>
+				    <option value="minimum">Minimum</option>
+				</select>
+		        <input type="file" name="content_img" /
+		        		style = "width: 300px; 
+				  			   height: 35px; 
+				  			   font-size: 20px;
+				  			   border-radius: 5px;
+								 margin-left: 40px">   
+				<input type="file" name="style_img" /
+				style = "width: 300px; 
+							height: 35px; 
+							font-size: 20px;
+							border-radius: 5px;
+							margin-left: 40px">  
+		        <input type = "submit" value="Create Your Art!"
+		        		style = "width: 200px; 
+				  			   height: 35px; 
+				  			   text-align: center;
+				  			   font-size: 20px;
+				  			   color: white;
+				  			   background-color: #99d6ff;
+				  			   border-radius: 5px">  
+    		</form>
+        </div>
+		</div>
+	</div>
+
+        
+
+
+{% endblock %}
+</body>
+</html>
