@@ -1,9 +1,15 @@
-# MCITHackathon
+# MCIT On-Campus 2021 Winter Hackathon  
+### Project Name: Artistic Transformation
 
-## :bulb:**Inspiration** 
+### **Team Members**    
+Name | Year
+------------ | -------------
+<person 1> | <their year>
+
+### :bulb:**General Idea** 
 ###### When walking around an art gallary, we sometimes wonder what will an artwork look like in another style. Or how will a photograph look like under a master's paint brush. So our goal for this project is to transfer a picture using the style of another picture through what we learned in CIS545 last semester, machine learning :raised_hands:
 
-## :clipboard:**Detailed Implementation**
+### :clipboard:**Anticipated Stack**
 *  :iphone: Front end: 
    * Out website will beign with a simple demo instruction. After reviewing the instruction, user will continue to the application
    * User will update load two images of their choice, one for content and one for style, to produce the final integrated image
