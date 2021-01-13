@@ -1,7 +1,7 @@
 # MCIT On-Campus 2021 Winter Hackathon  
 ### :open_file_folder: **Project Name:** Artistic Transformation
 
-### **Team Members**   
+### :running: **Team Members**   
 | Name        | Year        |
 | ----------- | ----------- |
 |   Viola Li  | 2022        |
