@@ -1,13 +1,15 @@
 # MCIT On-Campus 2021 Winter Hackathon  
-### Project Name: Artistic Transformation
+### :open_file_folder: **Project Name:** Artistic Transformation
 
-### **Team Members**    
-Name | Year
------------- | -------------
-<person 1> | <their year>
+### **Team Members**   
+| Name        | Year        |
+| ----------- | ----------- |
+|   Viola Li  | 2022        |
+| Xuchong Shao| 2022        |
+
 
 ### :bulb:**General Idea** 
-###### When walking around an art gallary, we sometimes wonder what will an artwork look like in another style. Or how will a photograph look like under a master's paint brush. So our goal for this project is to transfer a picture using the style of another picture through what we learned in CIS545 last semester, machine learning :raised_hands:
+When walking around an art gallary, we sometimes wonder what will an artwork look like in another style. Or how will a photograph look like under a master's paint brush. So our goal for this project is to transfer a picture using the style of another picture through what we learned in CIS545 last semester, machine learning :raised_hands:
 
 ### :clipboard:**Anticipated Stack**
 *  :iphone: Front end: 
