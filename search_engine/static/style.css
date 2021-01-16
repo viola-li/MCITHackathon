@@ -148,3 +148,21 @@ h1, h2, h3, h4, h5, h6 {
    font-family: 'Nothing You Could Do', cursive;
 
 }
+
+/* render page */
+.color-section3{
+  background-color: #312c51;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.renderImg{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.returnbutton{
+  font-family: 'Nothing You Could Do', cursive;
+}
