@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
@@ -138,13 +138,13 @@ def success():
         mixed_img = style_mixing(content_path,style_path,degree=degree)
         mixed_img = tf.cast(tf.squeeze(mixed_img,axis=0)*255,tf.int8)
         mixed_img = Image.fromarray(mixed_img.numpy(),mode='RGB')
-        mixed_img_path = './upload/mixed_img.png'
+        mixed_img_path = '../search_engine/static/mixed_img.png'
         mixed_img.save(mixed_img_path)
-        data_url = base64.b64encode(open(mixed_img_path,'rb').read()).decode('utf-8') #read the uploaded file
+        #data_url = base64.b64encode(open(mixed_img_path,'rb').read()).decode('utf-8') #read the uploaded file
         #data_url = base64.b64encode(mixed_img).decode('utf-8')
-        img_tag = '<img src="data:image/jpg;base64,{0}" style="margin-left: 35%">'.format(data_url) #create image tag
-
-        return img_tag #display
+        #img_tag = '<img src="data:image/jpg;base64,{0}" style="margin-left: 35%">'.format(data_url) #create image tag
+        return render_template("render.html")
+        #return img_tag #display
 
 
 if __name__=="__main__":

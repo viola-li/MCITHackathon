@@ -58,10 +58,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <img src="Images/Demo1.png" class="demoimg">
+          <img src="{{ url_for('static', filename='Demo1.png') }}" class="demoimg">
         </div>
         <div class="carousel-item container-fluid">
-          <img src="Images/Demo2.png" class="demoimg">
+          <img src="{{ url_for('static', filename='Demo2.png') }}" class="demoimg">
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
