@@ -7,10 +7,8 @@ import base64
 import PIL
 from PIL import Image
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 import tensorflow as tf
 import matplotlib as mpl
-import scipy.misc
 mpl.rcParams['figure.figsize'] = (12,12)
 mpl.rcParams['axes.grid'] = False
 
