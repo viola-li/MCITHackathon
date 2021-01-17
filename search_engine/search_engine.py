@@ -11,7 +11,7 @@ def start():
     return render_template('index.html')
 
 
-@app.route('/search_engine/success', methods = ['POST', 'GET'])  
+@app.route('/success', methods = ['POST', 'GET'])  
 def upload_img():
     if request.method=='POST':  # User clicked submit button        
       content_img = request.files['content_img']
