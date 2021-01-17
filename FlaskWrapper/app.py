@@ -9,12 +9,12 @@ def home():
 
 @app.route("/search_engine/")
 @app.route("/search_engine/<path:path>")
-def flask1(path=""):
+def search_engine(path=""):
 	return request.urlopen("http://localhost:8081/" + path).read()
 
 @app.route("/database/")
 @app.route("/database/<path:path>")
-def flask2(path=""):
+def database(path=""):
 	return request.urlopen("http://localhost:8082/" + path).read()
 
 
