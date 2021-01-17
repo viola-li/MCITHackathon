@@ -128,4 +128,4 @@ zipp==3.3.0
 honcho==0.7.1
 blinker==1.4
 gevent==1.4.0
-greenlet==0.4.12
+greenlet==0.4.14
