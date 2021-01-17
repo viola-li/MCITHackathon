@@ -1,1 +1,1 @@
-web: gunicorn search_engine/search_engine:app
+web: honcho -f ProcfileHoncho start
